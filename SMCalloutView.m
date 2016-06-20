@@ -18,15 +18,15 @@
 #define CALLOUT_DEFAULT_CONTAINER_HEIGHT 44 // height of just the main portion without arrow
 #define CALLOUT_SUB_DEFAULT_CONTAINER_HEIGHT 52 // height of just the main portion without arrow (when subtitle is present)
 #define CALLOUT_MIN_WIDTH 61 // minimum width of system callout
-#define TITLE_HMARGIN 12 // the title/subtitle view's normal horizontal margin from the edges of our callout view or from the accessories
-#define TITLE_TOP 11 // the top of the title view when no subtitle is present
+#define TITLE_HMARGIN 5 // the title/subtitle view's normal horizontal margin from the edges of our callout view or from the accessories
+#define TITLE_TOP 5 // the top of the title view when no subtitle is present
 #define TITLE_SUB_TOP 4 // the top of the title view when a subtitle IS present
 #define TITLE_HEIGHT 21 // title height, fixed
 #define SUBTITLE_TOP 28 // the top of the subtitle, when present
 #define SUBTITLE_HEIGHT 15 // subtitle height, fixed
 #define BETWEEN_ACCESSORIES_MARGIN 7 // margin between accessories when no title/subtitle is present
-#define TOP_ANCHOR_MARGIN 13 // all the above measurements assume a bottom anchor! if we're pointing "up" we'll need to add this top margin to everything.
-#define COMFORTABLE_MARGIN 10 // when we try to reposition content to be visible, we'll consider this margin around your target rect
+#define TOP_ANCHOR_MARGIN 5 // all the above measurements assume a bottom anchor! if we're pointing "up" we'll need to add this top margin to everything.
+#define COMFORTABLE_MARGIN 5 // when we try to reposition content to be visible, we'll consider this margin around your target rect
 
 NSTimeInterval const kSMCalloutViewRepositionDelayForUIScrollView = 1.0/3.0;
 
